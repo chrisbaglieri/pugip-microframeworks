@@ -8,9 +8,9 @@
 # [@chrisbaglieri](http://twitter.com/chrisbaglieri)
 
 * full stack developer & designer
+* polyglot
 * architect at bms
 * founder [spare cycles](http://findsparecycles.com/)
-* polyglot
 
 <!SLIDE bullets incremental transition=fade>
 
