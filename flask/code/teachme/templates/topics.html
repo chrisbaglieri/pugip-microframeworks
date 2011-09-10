@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}| Topics{% endblock %}
+{% block content %}
+	<a href="{{ url_for('new_topic') }}">Add New Topic</a>
+	{% for topic in topics %}
+	<h3>{{ topic.name }}</h3>
+	<ul>
+		<li>Description: {{ topic.description }}</li>
+		<li>Presenter: {{ topic.presenter }}</li>
+		<li>Actions: <a href="{{ url_for('edit_topic', id=topic._id) }}">Edit</a> | <a href="{{ url_for('delete_topic', id=topic._id) }}">Delete</a></li>
+	</ul>
+	{% endfor %}
+{% endblock %}

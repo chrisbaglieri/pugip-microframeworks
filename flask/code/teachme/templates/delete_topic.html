@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}| Delete Topic{% endblock %}
+{% block content %}
+	<p>Are you sure you wish to delete the topic on {{ topic.name }}?</p>
+	<form action="{{ url_for('destroy_topic', id=topic._id) }}" method="post">
+		<input type="submit" value="Delete Topic" />
+	</form>
+{% endblock %}

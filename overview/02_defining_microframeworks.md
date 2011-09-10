@@ -6,13 +6,7 @@
 * handles http requests and responses
 * exposes (restful) url routes
 * supports wsgi
-
-<!SLIDE bullets incremental transition=fade>
-
-# a microframework often lacks
-
-* an orm or really any db wrapper
-* any sort of templating engine
+* heavily favors convention over configuration
 
 <!SLIDE bullets incremental transition=fade>
 
