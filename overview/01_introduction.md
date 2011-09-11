@@ -3,7 +3,7 @@
 # Python Microframeworks
 ### A whirlwind tour of notable, itsy, bitsy, teenie, weenie frameworks for standing up basic applications and apis.
 
-<!SLIDE bullets incremental transition=fade>
+<!SLIDE bullets transition=fade>
 
 # [@chrisbaglieri](http://twitter.com/chrisbaglieri)
 
@@ -21,7 +21,7 @@
 * that's rendered in the browser
 * served by a microframework
 
-<!SLIDE bullets incremental transition=fade>
+<!SLIDE bullets transition=fade>
 
 # that's what I love about 'em
 

@@ -1,4 +1,4 @@
-<!SLIDE bullets incremental transition=fade>
+<!SLIDE bullets transition=fade>
 
 # a (python) microframework
 
@@ -8,7 +8,7 @@
 * supports wsgi
 * heavily favors convention over configuration
 
-<!SLIDE bullets incremental transition=fade>
+<!SLIDE bullets transition=fade>
 
 # these are not microframeworks
 
@@ -18,12 +18,9 @@
 * zope
 * grok
 
-<!SLIDE bullets incremental transition=fade>
+<!SLIDE bullets transition=fade>
 
 # these however are microframeworks
 
 * flask
 * bottle
-* cherrypy
-* pesto
-* aspen.io

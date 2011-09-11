@@ -2,7 +2,7 @@
 
 ![flask](flask.png)
 
-<!SLIDE bullets incremental transition=fade>
+<!SLIDE bullets transition=fade>
 
 # flask at a high level
 
@@ -12,18 +12,7 @@
 * however the site at [flask.pocoo.org](http://flask.pocoo.org/) is stellar
 * the heaviest of the bunch
 
-<!SLIDE bullets incremental transition=fade>
-
-# what makes up flask
-
-* routing engine
-* lightweight templating engine (jinja2)
-* excellent request/response handling
-* session management
-* logging & built in debugger
-* message flashing
-
-<!SLIDE transition=fade>
+<!SLIDE smaller transition=fade>
 
 	@@@ python
 	from flask import Flask
@@ -36,7 +25,7 @@
 	if __name__ == '__main__':
 		app.run()
 
-<!SLIDE bullets incremental transition=fade>
+<!SLIDE bullets transition=fade>
 
 # less talk more action
 
