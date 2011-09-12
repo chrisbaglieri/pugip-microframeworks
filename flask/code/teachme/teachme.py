@@ -1,4 +1,5 @@
-from mongokit import Connection, Document, ObjectId
+from random import randint
+from mongokit import Connection, Document
 from flask import Flask, redirect, render_template, request, url_for
 
 MONGODB_HOST = 'localhost'
@@ -14,6 +15,7 @@ class Topic(Document):
 	__collection__ = 'topics'
 	__database__ = 'teachme'
 	structure = {
+		'_id': int,
 		'name': unicode,
 		'description': unicode,
 		'presenter': unicode
@@ -32,7 +34,7 @@ def show_topics():
 	
 @app.route('/topics/<id>')
 def show_topic(id):
-	topic = connection.Topic.find_one({'_id': ObjectId(id)})
+	topic = connection.Topic.find_one({'_id': int(id)})
 	return render_template('topic.html', topic=topic)
 	
 @app.route('/topics/new')
@@ -42,6 +44,7 @@ def new_topic():
 @app.route('/topics', methods=['POST'])
 def create_topic():
 	topic = connection.Topic()
+	topic._id = randint(1, 1000000)
 	topic.name = request.form['name']
 	topic.description = request.form['description']
 	topic.presenter = request.form['presenter']
@@ -50,12 +53,12 @@ def create_topic():
 	
 @app.route('/topics/<id>/edit')
 def edit_topic(id):
-	topic = connection.Topic.find_one({'_id': ObjectId(id)})
+	topic = connection.Topic.find_one({'_id': int(id)})
 	return render_template('edit_topic.html', topic=topic)
 	
 @app.route('/topics/<id>', methods=['POST'])
 def update_topic(id):
-	topic = connection.Topic.find_one({'_id': ObjectId(id)})
+	topic = connection.Topic.find_one({'_id': int(id)})
 	topic.name = request.form['name']
 	topic.description = request.form['description']
 	topic.presenter = request.form['presenter']
@@ -64,12 +67,12 @@ def update_topic(id):
 
 @app.route('/topics/<id>/delete')
 def delete_topic(id):
-	topic = connection.Topic.find_one({'_id': ObjectId(id)})
+	topic = connection.Topic.find_one({'_id': int(id)})
 	return render_template('delete_topic.html', topic=topic)
 
 @app.route('/topics/<id>/delete', methods=['POST'])
 def destroy_topic(id):
-	topic = connection.Topic.find_one({'_id': ObjectId(id)})
+	topic = connection.Topic.find_one({'_id': int(id)})
 	topic.delete()
 	return redirect(url_for('show_topics'))
 

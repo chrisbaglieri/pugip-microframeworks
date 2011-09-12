@@ -3,6 +3,7 @@
   "description": "A whirlwind tour of notable, itsy, bitsy, teenie, weenie frameworks for standing up simple applications and apis.",
   "sections": [
     {"section":"overview"},
-	{"section":"flask"}
+	{"section":"flask"},
+	{"section":"bottle"}
   ]
 }

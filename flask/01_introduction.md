@@ -10,7 +10,7 @@
 * source at [github.com/mitsuhiko/flask](https://github.com/mitsuhiko/flask)
 * the readme on github is abysmal
 * however the site at [flask.pocoo.org](http://flask.pocoo.org/) is stellar
-* the heaviest of the bunch
+* the heaviest of the bunch @ 32245 lines
 
 <!SLIDE smaller transition=fade>
 
