@@ -22,5 +22,5 @@
 
 # these however are microframeworks
 
-* flask
-* bottle
+* flask, bottle, web.py, cherrypy, aspen.io
+* pesto, itty, bobo
