@@ -15,7 +15,19 @@
 
 # what else?
 
-* lightweight (albeit wonky) templating engine
+* lightweight templating engine
+
+<!SLIDE smaller transition=fade>
+
+	@@@ html
+	<html>
+	<head>
+	  <title>{{title or 'No title'}}</title>
+	</head>
+	<body>
+	  %include
+	</body>
+	</html>
 
 <!SLIDE bullets transition=fade>
 
