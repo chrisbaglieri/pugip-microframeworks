@@ -1,6 +1,6 @@
 <!SLIDE center>
 
-![flask](bottle.png)
+![bottle](bottle.png)
 
 <!SLIDE bullets transition=fade>
 
@@ -9,7 +9,7 @@
 * source at [github.com/defnull/bottle](https://github.com/defnull/bottle)
 * the readme on github is abysmal
 * however the site at [bottlepy.org](http://bottlepy.org) is stellar
-* the lightest of the bunch @ 2697 lines
+* one of the lightest of the bunch @ 2697 lines
 
 <!SLIDE smaller transition=fade>
 

@@ -40,3 +40,9 @@
 		twisted
 		diesel
 	"""
+
+<!SLIDE bullets transition=fade>
+
+# what else?
+
+* python 3 ready
