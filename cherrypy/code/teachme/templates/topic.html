@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}| Topic{% endblock %}
+{% block content %}
+	<h3>{{ topic.name }}</h3>
+	<ul>
+		<li>Description: {{ topic.description }}</li>
+		<li>Presenter: {{ topic.presenter }}</li>
+	</ul>
+{% endblock %}

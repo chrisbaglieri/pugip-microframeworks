@@ -6,6 +6,7 @@
 	{"section":"flask"},
 	{"section":"bottle"},
 	{"section":"webpy"},
+	{"section":"cherrypy"},
 	{"section":"summary"}
   ]
 }

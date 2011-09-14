@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}| Edit Topic{% endblock %}
+{% block content %}
+	<form action="/topics/update/{{ topic._id }}" method="post">
+		<input type="text" name="name" value="{{ topic.name }}" />
+		<input type="text" name="description" value="{{ topic.description }}" />
+		<input type="text" name="presenter" value="{{ topic.presenter }}" />
+		<input type="submit" value="Edit Topic" />
+	</form>
+{% endblock %}
