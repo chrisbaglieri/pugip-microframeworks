@@ -1,7 +1,7 @@
 Princeton Python User Group Talk On Microframeworks
 ===================================================
 
-This is a [showoff](http://github.com/schacon/showoff) presentation I shared with the Princeton Python User Group surveying a subset of the more popular microframeworks out there. You can view this presentation by installing the showoff gem (how devilish of me to force you to install ruby code to watch a presentation on Python microframeworks), cloning the repo, diving into the repo direction, issuing the command 'showoff serve', and opening [localhost:9090](http://localhost:9090) in your browser.
+This is a [showoff](http://github.com/schacon/showoff) presentation I shared with the Princeton Python User Group surveying a subset of the more popular microframeworks out there. You can view this presentation by installing the showoff gem (how devilish of me to force you to install ruby code to watch a presentation on Python microframeworks), cloning the repo, diving into the repo directory, issuing the command 'showoff serve', and opening [localhost:9090](http://localhost:9090) in your browser.
 
     $ gem install showoff
     $ git clone git://github.com/chrisbaglieri/pugip-microframeworks.git
