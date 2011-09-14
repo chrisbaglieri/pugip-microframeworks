@@ -1,3 +1,24 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 
 body { font-family: 'Oswald', serif; }
+body { color: #fff; background-color: #65aaba; webkit-font-smoothing: antialiased; line-height: 1.4; font-size: 18px; }
+
+#preso a, preso a:visited, preso a:link { color: #6D4927; font-weight: bold; text-decoration: none; border-bottom: 2px solid #6D4927; }
+#preso .highlight { color: #8b0000; }
+#preso code, preso pre { color: #000; padding: 0.5em; font-size: 18px; background-color: transparent; }
+#preso code { display: block; border: 1px dashed #65aaba; background-color: #eee; }
+
+h1 { font-size: 48px; color: #31626D;}
+h2 { font-size: 36px; color: #A4EEFF;}
+h3 { font-size: 24px; }
+
+#preso, .slide { background-color: transparent; box-shadow: none; moz-box-shadow: none; webkit-box-shadow: none; }
+#preso, .slide { border: none !important; }
+
+#preso h2, preso ul, preso code { display: block; width: 650px; margin: 0 auto; text-align: left; }
+
+#preso ul { margin: 0 auto; text-align: left; }
+#preso ul > li { font-size: 28px; margin-bottom: 0.2em; align: left; }
+#preso ul > li:before { content: "» "; }
+#preso ul > li > ul > li { margin-left: 1em; margin-bottom: 0.2em; font-size: 0.8em; }
+#preso ul > li > ul > li:before { content: "- "; }
