@@ -6,6 +6,8 @@
 
 <!SLIDE smaller transition=fade>
 
+# code
+
 	@@@ html
 	$def with (name)
 

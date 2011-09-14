@@ -13,6 +13,8 @@
 
 <!SLIDE smaller transition=fade>
 
+# code
+
 	@@@ python
 	import cherrypy
 

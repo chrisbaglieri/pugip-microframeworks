@@ -13,6 +13,8 @@
 
 <!SLIDE smaller transition=fade>
 
+# code
+
 	@@@ python
 	from bottle import route, run
 

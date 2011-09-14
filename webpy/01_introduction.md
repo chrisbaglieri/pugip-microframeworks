@@ -14,6 +14,8 @@
 
 <!SLIDE smaller transition=fade>
 
+# code
+
 	@@@ python
 	import web
 	import view, config

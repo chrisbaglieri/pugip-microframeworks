@@ -6,6 +6,8 @@
 
 <!SLIDE smaller transition=fade>
 
+# code
+
 	@@@ python
 	@error(404)
 	def error404(error):
@@ -18,6 +20,8 @@
 * lightweight templating engine
 
 <!SLIDE smaller transition=fade>
+
+# code
 
 	@@@ html
 	<html>
@@ -36,6 +40,8 @@
 * hooking in WSGI middlewares
 
 <!SLIDE smaller transition=fade>
+
+# code
 
 	@@@ python
 	bottle.run(server='[server name]')

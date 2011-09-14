@@ -6,6 +6,8 @@
 
 <!SLIDE smaller transition=fade>
 
+# code
+
 	@@@ python
 	@app.route('/login', methods=['GET', 'POST'])
 	def login():
@@ -25,6 +27,8 @@
 
 <!SLIDE smaller transition=fade>
 
+# code
+
 	@@@ python
 	# in your handler
 	flash("Successfully created foo", category='success')
@@ -42,6 +46,8 @@
 
 <!SLIDE smaller transition=fade>
 
+# code
+
 	@@@ python
 	app.logger.debug('A value for debugging')
 	app.logger.warning('A warning occurred (%d apples)', 42)
@@ -54,6 +60,8 @@
 * hooking in WSGI middlewares
 
 <!SLIDE smaller transition=fade>
+
+# code
 
 	@@@ python
 	# tornado
