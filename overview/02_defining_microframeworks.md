@@ -22,5 +22,6 @@
 
 # these however are microframeworks
 
-* flask, bottle, web.py, cherrypy, aspen.io
-* pesto, itty, bobo
+* http oriented (flask, bottle, pesto, itty, bobo)
+* object oriented (web.py, cherrypy)
+* not unlike anything else (aspen.io)

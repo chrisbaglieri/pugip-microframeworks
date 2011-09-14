@@ -18,8 +18,9 @@
 
 * you're viewing a presentation
 * its content is written in markdown
-* that's rendered in the browser
-* served by a microframework
+* it's converted to html
+* and rendered in the browser
+* all served by a microframework
 
 <!SLIDE bullets transition=fade>
 
